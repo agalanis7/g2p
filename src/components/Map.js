@@ -17,7 +17,7 @@ class Map extends Component {
  }
 
   async componentDidMount() {
-    mapboxgl.accessToken = API_KEY
+    mapboxgl.accessToken = API_KEY || process.env.KEY
     const mapOptions = {
       container: this.mapContainer,
       style: 'mapbox://styles/mapbox/streets-v9',
