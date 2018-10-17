@@ -1,0 +1,55 @@
+.App {
+  background-color: #b5d1ff;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+#seg {
+  width: 80vw;
+  padding: none;
+  margin: none;
+  height: 500px;
+}
+
+/* #map {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: 'azure';
+} */
+
+.ui.segment {
+  background-color: #b5d1ff;
+  box-shadow: none;
+  border: none;
+  box-sizing: content-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #b5d1ff;
+}
+
+.mapboxgl-map {
+  border-style: solid;
+}
+
+#logo {
+  font-family: 'Mali', cursive;
+  border-style: solid;
+  display: inline-block;
+
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 2%;
+
+}
+
+ .center{
+  text-align: center;
+}
