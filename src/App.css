@@ -29,6 +29,30 @@
   box-sizing: content-box;
 }
 
+@media only screen and (max-width: 600px) {
+    .App {
+      display: block;
+    }
+
+    .key {
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+      display: block;
+      width: 100%;
+
+    }
+
+    .sign-up {
+      margin-top: 5em;
+      /* margin-right: 3em; */
+    }
+}
+
+
 body {
   height: 100vh;
   background-color: #b5d1ff;
