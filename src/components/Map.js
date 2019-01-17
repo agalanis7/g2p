@@ -7,7 +7,7 @@ import axios from 'axios'
 import {Data, publicData} from './Data.js'
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder'
 import 'semantic-ui-css/semantic.min.css';
-// import API_KEY from '../config.js'
+import API_KEY from './config.js'
 import { Dimmer, Loader, Image, Segment } from 'semantic-ui-react'
 
 class Map extends Component {
@@ -17,7 +17,7 @@ class Map extends Component {
  }
 
   async componentDidMount() {
-    mapboxgl.accessToken = process.env.REACT_APP_API_KEY
+    mapboxgl.accessToken = API_KEY
     const mapOptions = {
       container: this.mapContainer,
       style: 'mapbox://styles/mapbox/streets-v9',
