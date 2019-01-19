@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+
 import axios from 'axios';
 // import Map from './Map.js'
 //new code

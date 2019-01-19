@@ -3,12 +3,12 @@ import mapboxgl from 'mapbox-gl'
 import './marker.css'
 import ReactDOMServer from 'react-dom/server'
 import Popup from './Popup'
-import axios from 'axios'
+// import axios from 'axios'
 import {Data, publicData} from './Data.js'
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder'
 import 'semantic-ui-css/semantic.min.css';
 import API_KEY from './config.js'
-import { Dimmer, Loader, Image, Segment } from 'semantic-ui-react'
+import { Loader, Segment } from 'semantic-ui-react'
 
 class Map extends Component {
   constructor(props){
@@ -63,13 +63,13 @@ class Map extends Component {
   fetchPlaces = (loc) => {
     // this.state.location;
     const map = this.map;
-    const self= this;
+    //const self= this;
     loc.forEach((location, i) => {
 
       let elm = document.createElement('div')
 
       // let public_bathrooms= this.props.pubReq
-      if (location.public == true) {
+      if (location.public === true) {
         elm.className = "public-marker"
       } else {
         elm.className = "mapbox-marker"

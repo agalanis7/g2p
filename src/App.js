@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div class="center">
+        <div className="center">
           <h1 id="logo">G|2|P</h1>
         </div>
         <div className="App">
