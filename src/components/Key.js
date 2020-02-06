@@ -21,10 +21,10 @@ export default class Key extends Component {
           <li className="steps"> Follow the steps to find the nearest one!</li>
           <li> On the map click on the following icons: </li>
           <li>
-          {privImg} : business bathrooms
+          {privImg} : Private bathrooms
           </li>
           <li>
-          {pubImg} : public bathrooms
+          {pubImg} : Public bathrooms
           </li>
           <li className="users">
             Join the fun:
