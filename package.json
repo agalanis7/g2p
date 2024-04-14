@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {
     "@mapbox/mapbox-gl-geocoder": "^2.3.0",
-    "axios": "^0.18.1",
+    "axios": "^1.6.8",
     "google-map-react": "^1.1.6",
     "mapbox-gl": "^0.50.0",
     "react": "^16.12.0",
